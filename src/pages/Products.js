@@ -63,7 +63,7 @@ const Products = () => {
     {name: "DRINK ANYWHERE",price: 1999,src: "https://rakesh-46.b-cdn.net/drink_anywhere.jpg",description:"Portable water extractor turns ice, permafrost, or even air into life-giving H2O."},
     {name: "EPOXY",price: 6999,src: "https://rakesh-46.b-cdn.net/epoxy.jpg",description: "The universal space glue, bonds anything and everything.",},
     {name: "FARMING KIT",price: 29999,src: "https://rakesh-46.b-cdn.net/farming_kit.jpg",description:"Creates food, water, and oxygen from waste materials, minimizing dependence on external supplies.",},
-    {name: "HEALTH IN YOUR VEINS.jpg",price: 2599,src: "https://rakesh-46.b-cdn.net/health.jpg",description:"Continuously tracks vital signs and transmits data for remote medical monitoring.",},
+    {name: "HEALTH IN YOUR VEINS",price: 2599,src: "https://rakesh-46.b-cdn.net/health.jpg",description:"Continuously tracks vital signs and transmits data for remote medical monitoring.",},
     {name: "HOLOGRAPHIC DISPLAY",price: 19999,src: "https://rakesh-46.b-cdn.net/holographic_display.jpg",description:"Holographic communication bridges the gap to Earth and beyond.",},
     {name: "MOXIE",price: 8999,src: "https://rakesh-46.b-cdn.net/moxie.jpg",description: "Make your own air from scratch, anywhere.",},
     {name: "TRACE GAS ANALYZER",price: 5999,src: "https://rakesh-46.b-cdn.net/gas_analy.jpg",description: "Sniff out resources and dangers in the alien air.",},
