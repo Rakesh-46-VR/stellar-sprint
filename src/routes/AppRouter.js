@@ -12,11 +12,11 @@ const AppRouter = () => {
     <Router>
       <Navbar/>
       <Routes>
-        <Route path="/" exact element={<HomePage/>} />
-        <Route path="/user/signin" element={<LoginSignup/>} />
-        <Route path="/user/signup" element={<LoginSignup/>} />
-        <Route path="/products" element={<ProductsPage/>}/>
-        <Route path="/about" element={<AboutUsPage/>}/>
+        <Route path="stellar-sprint/" exact element={<HomePage/>} />
+        <Route path="stellar-sprint/user/signin" element={<LoginSignup/>} />
+        <Route path="stellar-sprint/user/signup" element={<LoginSignup/>} />
+        <Route path="stellar-sprint/products" element={<ProductsPage/>}/>
+        <Route path="stellar-sprint/about" element={<AboutUsPage/>}/>
       </Routes>
     </Router>
   );
