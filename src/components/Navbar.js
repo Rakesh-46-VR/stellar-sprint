@@ -34,14 +34,14 @@ function Navbar() {
             <ul className={click ? "nav-menu show" : "nav-menu"}>
               <li className="nav-items" onClick={closeMobileMenu}>
                 <i className="fas fa-home" />
-                <Link to="/stellar-sprint/" className="nav-links" onClick={closeMobileMenu}>
+                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                   Home
                 </Link>
               </li>
               <li className="nav-items" onClick={closeMobileMenu}>
                 <i className="fas fa-info-circle" />
                 <Link
-                  to="stellar-sprint/about"
+                  to="/about"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
@@ -51,7 +51,7 @@ function Navbar() {
               <li className="nav-items" onClick={closeMobileMenu}>
                 <i className="fas fa-user-alt" />
                 <Link
-                  to="stellar-sprint/user/signup"
+                  to="/user/signup"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
@@ -61,7 +61,7 @@ function Navbar() {
               <li className="nav-items" onClick={closeMobileMenu}>
                 <i className="fas fa-sign-in-alt" />
                 <Link
-                  to="stellar-sprint/user/signin"
+                  to="/user/signin"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
@@ -71,7 +71,7 @@ function Navbar() {
               <li className="nav-items" onClick={closeMobileMenu}>
                 <i className="fa fa-cubes" />
                 <Link
-                  to="stellar-sprint/products"
+                  to="/products"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
@@ -99,14 +99,14 @@ function Navbar() {
 
               <li className="nav-items" onClick={closeMobileMenu}>
                 <i className="fas fa-home" />
-                <Link to="stellar-sprint/" className="nav-links" onClick={closeMobileMenu}>
+                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                   Home
                 </Link>
               </li>
               <li className="nav-items" onClick={closeMobileMenu}>
                 <i className="fas fa-info-circle" />
                 <Link
-                  to="stellar-sprint/about"
+                  to="/about"
                   className="nav-links"
                   onClick={closeMobileMenu}
                   >
@@ -116,7 +116,7 @@ function Navbar() {
               <li className="nav-items" onClick={closeMobileMenu}>
                 <i className="fas fa-sign-in-alt" />
                 <Link
-                  to="stellar-sprint/user/signin"
+                  to="/user/signin"
                   className="nav-links"
                   onClick={closeMobileMenu}
                   >
@@ -126,7 +126,7 @@ function Navbar() {
               <li className="nav-items" onClick={closeMobileMenu}>
                 <i className="fa fa-cubes" />
                 <Link
-                  to="stellar-sprint/products"
+                  to="/products"
                   className="nav-links"
                   onClick={closeMobileMenu}
                   >
