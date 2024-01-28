@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/stellar-sprint/static/css/main.1051f062.css",
-    "main.js": "/stellar-sprint/static/js/main.86b9610d.js",
+    "main.js": "/stellar-sprint/static/js/main.416104b5.js",
     "static/media/Exan-Regular.ttf": "/stellar-sprint/static/media/Exan-Regular.cad2ee179050f58b79c3.ttf",
     "static/media/Sddystopiandemo-GO7xa.otf": "/stellar-sprint/static/media/Sddystopiandemo-GO7xa.47beffbc541e08d421da.otf",
     "index.html": "/stellar-sprint/index.html",
     "main.1051f062.css.map": "/stellar-sprint/static/css/main.1051f062.css.map",
-    "main.86b9610d.js.map": "/stellar-sprint/static/js/main.86b9610d.js.map"
+    "main.416104b5.js.map": "/stellar-sprint/static/js/main.416104b5.js.map"
   },
   "entrypoints": [
     "static/css/main.1051f062.css",
-    "static/js/main.86b9610d.js"
+    "static/js/main.416104b5.js"
   ]
 }
