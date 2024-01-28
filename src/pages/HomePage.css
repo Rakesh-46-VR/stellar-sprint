@@ -1,0 +1,138 @@
+.background {
+  position:relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.content h1 {
+  font-size: 3rem;
+  width: max-content;
+}
+
+.content p {
+  font-size: 1.5rem;
+}
+/* 
+.content button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.content button:hover {
+  background-color: #45a049;
+} */
+
+.image-section {
+  padding: 50px 0;
+  overflow: visible;
+}
+
+.image-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.image-info.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.image-info.left-to-right {
+  transform: translateX(-50px);
+  order: 1;
+}
+
+.image-info.right-to-left {
+  transform: translateX(50px);
+  order: 2;
+}
+
+.image-info.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.image-info img {
+  width: 20%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.info-text {
+  width: 50%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  font-size: larger;
+}
+
+.about-section {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.topPicks{
+  padding: 20px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .content h1{
+    word-wrap: break-word;
+    width: 100%;
+    overflow: visible;
+  }
+  .content {
+    width: 100%;
+  }
+  .image-info {
+    width: 100%;
+    flex-direction: column;
+  }
+  .info-text {
+    width: 100%;
+  }
+  .image-info img {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+
+.image-section::-webkit-scrollbar {
+  display:block; 
+}

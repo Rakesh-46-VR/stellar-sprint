@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'CompFont';
+  src: url('./Sddystopiandemo-GO7xa.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Navbar styles */
+.navbar-top-desktop {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #222;
+  padding: 1rem;
+  height: 60px;
+  z-index: 1000;
+}
+
+.nav-desktop{
+  display: flex;
+  flex-direction: row;
+}
+
+/* Navbar container styles */
+.navbar-container {
+  box-sizing: border-box;
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.company-name {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-right: 1rem;
+  font-family: "CompFont";
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  margin: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: block  ;
+}
+
+.nav-items {
+  position: relative;
+  display: block;
+  margin: 15px;
+  text-decoration: none;
+  padding: 2px;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.nav-items:hover {
+  border-bottom: 2px solid white;
+  border-radius: 5px;
+  transform: translateY(-5px);
+}
+
+.nav-items::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: block;
+}
+
+.nav-links {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links:hover {
+  color: aqua;
+}
+
+.links-container ul {
+  display: flex;
+  flex-direction: row;
+  margin-right: 2rem;
+}
+
+ul.nav-menu {
+  list-style:none;
+  width: 200px;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  height: 100vh;
+  margin: 0;
+  align-items: center;
+  z-index: 10;
+}
+
+ul.show {
+  transform: translateX(-20%);
+}
+
+.links-container ul {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-search {
+    display: none;
+  }
+  .nav-desktop{
+    display: none;
+  }
+
+}
+
+.nav-search {
+  margin-top: 15px;
+  height: 60px;
+}
