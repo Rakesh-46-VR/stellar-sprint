@@ -38,7 +38,7 @@ const Footer = () => {
           <p><a href="/stellar-sprint/#/">Home</a></p>
           <p><a href="/stellar-sprint/#/about">About</a></p>
           <p><a href="/stellar-sprint/#/products">Products</a></p>
-          <p><a href="/stellar-sprint/#/login">Login</a></p>
+          <p><a href="/stellar-sprint/#/user/signin">Login</a></p>
         </div>
       </div>
       <div className="footer-bottom">
