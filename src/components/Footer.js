@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h3>Quick Links</h3>
-          <p><a href="/">Home</a></p>
+          <p><a href="/stellar-sprint">Home</a></p>
           <p><a href="/about">About</a></p>
           <p><a href="/products">Products</a></p>
           <p><a href="/login">Login</a></p>
