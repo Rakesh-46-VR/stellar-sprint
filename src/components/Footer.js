@@ -35,10 +35,10 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h3>Quick Links</h3>
-          <p><a href="stellar-sprint/#/">Home</a></p>
-          <p><a href="stellar-sprint/#/about">About</a></p>
-          <p><a href="stellar-sprint/#/products">Products</a></p>
-          <p><a href="stellar-sprint/#/login">Login</a></p>
+          <p><a href="/stellar-sprint/#/">Home</a></p>
+          <p><a href="/stellar-sprint/#/about">About</a></p>
+          <p><a href="/stellar-sprint/#/products">Products</a></p>
+          <p><a href="/stellar-sprint/#/login">Login</a></p>
         </div>
       </div>
       <div className="footer-bottom">
