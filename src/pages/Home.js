@@ -81,7 +81,7 @@ const HomePage = () => {
       </div>
 
       <div ref={ref2} className={`image-info right-to-left ${inView2 ? 'show' : ''}`}>
-        <img src="https://rakesh-46.b-cdn.net/.jpg" alt="" />
+        <img src="https://rakesh-46.b-cdn.net/safe_secure.jpg" alt="" />
         <div className="info-text">
           <h2>Safe and Secure</h2>
           <p>
