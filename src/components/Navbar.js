@@ -166,7 +166,7 @@ function Navbar() {
           <h3>It seems your cart is empty.</h3>
           <img src="./cart.jpg" alt=""></img>
           <button className="clickContinue">
-            <a href="/products">Continue Shopping</a>
+            <a href="/stellar-sprint/#/products">Continue Shopping</a>
           </button>
         </div>
       </div>
