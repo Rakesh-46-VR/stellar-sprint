@@ -34,7 +34,7 @@ function Navbar() {
             <ul className={click ? "nav-menu show" : "nav-menu"}>
               <li className="nav-items" onClick={closeMobileMenu}>
                 <i className="fas fa-home" />
-                <Link to="/stellar-sprint" className="nav-links" onClick={closeMobileMenu}>
+                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                   Home
                 </Link>
               </li>
@@ -99,7 +99,7 @@ function Navbar() {
 
               <li className="nav-items" onClick={closeMobileMenu}>
                 <i className="fas fa-home" />
-                <Link to="/stellar-sprint" className="nav-links" onClick={closeMobileMenu}>
+                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                   Home
                 </Link>
               </li>
